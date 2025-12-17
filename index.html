@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #22349A;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .email-link {
+            position: fixed; /* stays in view even when scrolling */
+            top: 10px;
+            left: 10px;
+            font-size: 10px;
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.3s;
+        }
+        .email-link:hover {
+            color: #FFD700; /* subtle gold highlight on hover */
+            transform: scale(1.1); /* slight zoom effect */
+        }
+    </style>
+</head>
+<body>
+    <a href="mailto:maria_ebbinghaus@web.de" class="email-link">maria_ebbinghaus@web.de</a>
+</body>
+</html>
